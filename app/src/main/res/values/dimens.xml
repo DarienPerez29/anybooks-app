@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Formato para más información y como usar -->
+    <dimen name="title_1">@dimen/_18ssp</dimen>
+    <dimen name="title_2">@dimen/_14ssp</dimen>
+    <dimen name="desc_1">@dimen/_10ssp</dimen>
+
+    <!-- Dialog dimensions -->
+    <dimen name="dialog_common_linespace">@dimen/_15sdp</dimen>
+
+    <!-- Margenes -->
+    <dimen name="horizontal_margin1">@dimen/_20sdp</dimen>
+    <dimen name="horizontal_margin2">@dimen/_15sdp</dimen>
+    <dimen name="top_margin1">@dimen/_15sdp</dimen>
+
+    <!-- Tamaño iconos -->
+    <dimen name="h_icon_main">@dimen/_25sdp</dimen>
+    <dimen name="h_icon_sec">@dimen/_25sdp</dimen>
+
+</resources>

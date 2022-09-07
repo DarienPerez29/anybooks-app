@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_background"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:contentDescription="@string/logo_main_login"
+        android:src="@drawable/logo_full"
+        app:layout_constraintBottom_toTopOf="@+id/cardView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/white_translucent_1"
+        app:cardCornerRadius="@dimen/_10sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6"
+        app:layout_constraintWidth_percent="0.85">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:layout_marginVertical="@dimen/_25sdp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_semi_bold"
+                android:gravity="center"
+                android:text="@string/login_title"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_20ssp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_regular"
+                android:gravity="center"
+                android:paddingBottom="@dimen/_15sdp"
+                android:text="@string/login_subtitle"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_8ssp" />
+
+            <!-- Campo usuario -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/username_layout"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/username_field_hint"
+                android:paddingVertical="@dimen/_8sdp"
+                android:textColorHint="@color/white_translucent_2"
+                app:boxBackgroundColor="@color/white_translucent_1"
+                app:boxStrokeColor="@color/color_secondary"
+                app:boxStrokeErrorColor="@color/error_color"
+                app:errorIconTint="@color/error_color"
+                app:errorTextColor="@color/error_color"
+                app:hintTextColor="@color/color_secondary">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/username_field"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:digits="abcdefghijklmnopqrstuvwxyz1234567890"
+                    android:drawableStart="@drawable/ic_baseline_person"
+                    android:drawablePadding="@dimen/_4sdp"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:inputType="textFilter"
+                    android:maxLines="1"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_9ssp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <!-- Fin de campo usuario -->
+
+            <!-- Campo contrasenia -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/password_layout"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/password_field_hint"
+                android:paddingVertical="@dimen/_8sdp"
+                android:textColorHint="@color/white_translucent_2"
+                app:boxBackgroundColor="@color/white_translucent_1"
+                app:boxStrokeColor="@color/color_secondary"
+                app:boxStrokeErrorColor="@color/error_color"
+                app:errorIconDrawable="@null"
+                app:errorIconTint="@color/error_color"
+                app:errorTextColor="@color/error_color"
+                app:hintTextColor="@color/color_secondary"
+                app:passwordToggleEnabled="true"
+                app:passwordToggleTint="@color/white">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/password_field"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/ic_baseline_lock"
+                    android:drawablePadding="@dimen/_4sdp"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_9ssp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <!-- Fin de campo contrasenia -->
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/login_btn"
+                android:layout_width="@dimen/_180sdp"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/_30sdp"
+                android:backgroundTint="@color/color_secondary"
+                android:fontFamily="@font/montserrat_semi_bold"
+                android:letterSpacing="0"
+                android:paddingVertical="@dimen/_8sdp"
+                android:text="@string/login_btn"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_12sdp"
+                app:cornerRadius="@dimen/_5sdp" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/info_btn"
+        style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:fontFamily="@font/montserrat_medium_italic"
+        android:letterSpacing="0"
+        android:text="@string/info_btn"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_8ssp"
+        app:icon="@drawable/ic_baseline_info_filled"
+        app:iconGravity="textStart"
+        app:iconPadding="@dimen/_4sdp"
+        app:iconSize="@dimen/_11sdp"
+        app:iconTint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

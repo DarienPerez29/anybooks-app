@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/dapec/AndroidStudioProjects/AnyBooks/app/src/main/res/drawable/design_header_books_section.xml" value="0.3135" />
+        <entry key="..\:/Users/dapec/AndroidStudioProjects/AnyBooks/app/src/main/res/drawable/design_header_info_section.xml" value="0.2665" />
+        <entry key="..\:/Users/dapec/AndroidStudioProjects/AnyBooks/app/src/main/res/drawable/design_header_lendings_section.xml" value="0.2665" />
+        <entry key="..\:/Users/dapec/AndroidStudioProjects/AnyBooks/app/src/main/res/drawable/design_header_main.xml" value="0.2665" />
+        <entry key="..\:/Users/dapec/AndroidStudioProjects/AnyBooks/app/src/main/res/drawable/design_header_multimedia_section.xml" value="0.2665" />
+        <entry key="..\:/Users/dapec/AndroidStudioProjects/AnyBooks/app/src/main/res/drawable/design_header_papers_section.xml" value="0.2665" />
+        <entry key="..\:/Users/dapec/AndroidStudioProjects/AnyBooks/app/src/main/res/drawable/design_header_users_section.xml" value="0.2665" />
+        <entry key="..\:/Users/dapec/AndroidStudioProjects/AnyBooks/app/src/main/res/drawable/ic_baseline_book.xml" value="0.2665" />
+        <entry key="..\:/Users/dapec/AndroidStudioProjects/AnyBooks/app/src/main/res/drawable/ic_baseline_info_filled.xml" value="0.2665" />
+        <entry key="..\:/Users/dapec/AndroidStudioProjects/AnyBooks/app/src/main/res/drawable/ic_baseline_lock.xml" value="0.2665" />
+        <entry key="..\:/Users/dapec/AndroidStudioProjects/AnyBooks/app/src/main/res/drawable/ic_baseline_person.xml" value="0.2665" />
+        <entry key="..\:/Users/dapec/AndroidStudioProjects/AnyBooks/app/src/main/res/layout/activity_add_books.xml" value="0.33" />
+        <entry key="..\:/Users/dapec/AndroidStudioProjects/AnyBooks/app/src/main/res/layout/activity_add_papers.xml" value="0.3729166666666667" />
+        <entry key="..\:/Users/dapec/AndroidStudioProjects/AnyBooks/app/src/main/res/layout/activity_add_users.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/dapec/AndroidStudioProjects/AnyBooks/app/src/main/res/layout/activity_books.xml" value="0.33" />
+        <entry key="..\:/Users/dapec/AndroidStudioProjects/AnyBooks/app/src/main/res/layout/activity_info.xml" value="0.5" />
+        <entry key="..\:/Users/dapec/AndroidStudioProjects/AnyBooks/app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/Users/dapec/AndroidStudioProjects/AnyBooks/app/src/main/res/layout/activity_login_acitivty.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/dapec/AndroidStudioProjects/AnyBooks/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/dapec/AndroidStudioProjects/AnyBooks/app/src/main/res/layout/activity_main_books.xml" value="0.29483695652173914" />
+        <entry key="..\:/Users/dapec/AndroidStudioProjects/AnyBooks/app/src/main/res/layout/activity_main_lendings.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/dapec/AndroidStudioProjects/AnyBooks/app/src/main/res/layout/activity_main_multimedia.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/dapec/AndroidStudioProjects/AnyBooks/app/src/main/res/layout/activity_main_papers.xml" value="1.0" />
+        <entry key="..\:/Users/dapec/AndroidStudioProjects/AnyBooks/app/src/main/res/layout/activity_main_users.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/dapec/AndroidStudioProjects/AnyBooks/app/src/main/res/layout/activity_splash.xml" value="0.22" />
+        <entry key="..\:/Users/dapec/AndroidStudioProjects/AnyBooks/app/src/main/res/layout/activity_update_books.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/dapec/AndroidStudioProjects/AnyBooks/app/src/main/res/layout/activity_update_papers.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/dapec/AndroidStudioProjects/AnyBooks/app/src/main/res/layout/activity_update_users.xml" value="0.3729166666666667" />
+        <entry key="..\:/Users/dapec/AndroidStudioProjects/AnyBooks/app/src/main/res/layout/dialog_confirm_deletion.xml" value="0.26145833333333335" />
+        <entry key="..\:/Users/dapec/AndroidStudioProjects/AnyBooks/app/src/main/res/layout/dialog_login_error.xml" value="0.2604166666666667" />
+        <entry key="..\:/Users/dapec/AndroidStudioProjects/AnyBooks/app/src/main/res/layout/element_book_row.xml" value="0.67" />
+        <entry key="..\:/Users/dapec/AndroidStudioProjects/AnyBooks/app/src/main/res/layout/element_paper_row.xml" value="0.67" />
+        <entry key="..\:/Users/dapec/AndroidStudioProjects/AnyBooks/app/src/main/res/layout/element_user_row.xml" value="0.38697916666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

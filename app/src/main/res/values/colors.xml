@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_primary">#59D8FF</color>
+    <color name="color_mid">#439ADC</color>
+    <color name="color_secondary">#2375B0</color>
+    <color name="color_background">#101012</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="white_translucent_1">#05FFFFFF</color>
+    <color name="white_translucent_2">#55FFFFFF</color>
+    <color name="white_translucent_3">#80FFFFFF</color>
+    <color name="gray_color">#17171C</color>
+    <color name="shadow_color">#54000000</color>
+    <color name="error_color">#F62C2C</color>
+
+    <color name="section_books">#2BB3FF</color>
+    <color name="section_books2">#017BBF</color>
+    <color name="section_papers">#ED7F35</color>
+    <color name="section_papers2">#D82E04</color>
+    <color name="section_multimedia">#EF62A9</color>
+    <color name="section_multimedia2">#E6186B</color>
+    <color name="section_lendings">#6AC47F</color>
+    <color name="section_lendings2">#1B8E35</color>
+    <color name="section_users">#9052F2</color>
+    <color name="section_users2">#4E0DB5</color>
+    <color name="section_info">#FFC400</color>
+    <color name="section_info2">#E39103</color>
+</resources>

@@ -1,0 +1,166 @@
+<resources>
+    <string name="app_name">Any Books</string>
+
+    <!-- Login texts -->
+    <string name="logo_main_login">Logo de la sección de login</string>
+
+    <string name="login_title">Iniciar sesión</string>
+    <string name="login_subtitle">Ingresa los datos de una cuenta válida</string>
+    <string name="username_field_hint">Usuario</string>
+    <string name="password_field_hint">Contraseña</string>
+
+    <string name="login_btn">Ingresar</string>
+    <string name="info_btn">Más información sobre la app</string>
+
+    <!-- Login error dialog texts-->
+    <string name="dialog_login_error_logo">Icono de advertencia</string>
+    <string name="dialog_login_error_title">Error de inicio de sesión</string>
+    <string name="dialog_login_error_description">El usuario o la contraseña no son correctos, verifica tus datos.</string>
+    <string name="dialog_login_error_btn">OK</string>
+
+    <!-- Confirm deletion dialog texts -->
+    <string name="dialog_confirm_deletion_logo">Icono de advertencia</string>
+    <string name="dialog_confirm_deletion_title">\¿Eliminar registro\?</string>
+    <string name="dialog_confirm_deletion_description">¿Estás seguro de que quieres eliminar este registro?. Los cambios son irreversibles.</string>
+    <string name="dialog_confirm_deletion_ok_btn">Eliminar</string>
+    <string name="dialog_confirm_deletion_cancel_btn">Cancelar</string>
+
+    <!-- Dashboard texts -->
+    <string name="dashboard_back_btn">Botón de salir</string>
+    <string name="sections_back_btn">Botón de retroceder</string>
+
+    <string name="dashboard_title">Dashboard</string>
+    <string name="dashboard_desc">Any Books</string>
+
+    <string name="dashboard_books_icon">Icono de sección de libros</string>
+    <string name="dashboard_books_text">Libros</string>
+    <string name="dashboard_papers_icon">Icono de sección de artículos</string>
+    <string name="dashboard_papers_text">Artículos</string>
+    <string name="dashboard_multimedia_icon">Icono de sección de multimedia</string>
+    <string name="dashboard_multimedia_text">Multimedia</string>
+    <string name="dashboard_lendings_icon">Icono de sección de préstamos</string>
+    <string name="dashboard_lendings_text">Préstamos</string>
+    <string name="dashboard_users_icon">Icono de sección de usuarios</string>
+    <string name="dashboard_users_text">Usuarios</string>
+    <string name="dashboard_info_icon">Icono de sección de más información</string>
+    <string name="dashboard_info_text">Acerca de</string>
+
+    <!-- ================================= -->
+    <!-- Books section text -->
+    <!-- ================================= -->
+    <string name="section_books_title">Sección de libros</string>
+    <string name="section_books_desc">Any Books</string>
+    <string name="section_books_btn_add">Botón para añadir libros</string>
+    <string name="section_books_empty">No hay libros registrados</string>
+
+    <string name="section_books_add_title">Registrar nuevo libro</string>
+    <string name="section_books_add_desc">Any Books</string>
+    <string name="section_books_add_btn_add">Añadir libro</string>
+
+    <string name="section_books_update_title">Actualizar libro</string>
+    <string name="section_books_update_desc">Any Books</string>
+    <string name="section_books_update_btn_update">Actualizar libro</string>
+    <string name="section_books_update_btn_delete">Eliminar libro</string>
+
+    <string name="section_books_add_field_title">Titulo</string>
+    <string name="section_books_add_field_author">Autor</string>
+    <string name="section_books_add_field_year">Año</string>
+    <string name="section_books_add_field_language">Idioma</string>
+    <string name="section_books_add_field_editorial">Editorial</string>
+    <string name="section_books_add_field_pages">Páginas</string>
+
+    <!-- ================================= -->
+    <!-- Papers section text -->
+    <!-- ================================= -->
+    <string name="section_papers_title">Sección de artículos</string>
+    <string name="section_papers_desc">Any Books</string>
+    <string name="section_papers_btn_add">Botón para añadir artículos</string>
+    <string name="section_papers_empty">No hay artículos registrados</string>
+
+    <string name="section_papers_add_title">Registrar nuevo artículo</string>
+    <string name="section_papers_add_desc">Any Books</string>
+    <string name="section_papers_add_btn_add">Añadir artículo</string>
+
+    <string name="section_papers_update_title">Actualizar artículo</string>
+    <string name="section_papers_update_desc">Any Books</string>
+    <string name="section_papers_update_btn_update">Actualizar artículo</string>
+    <string name="section_papers_update_btn_delete">Eliminar artículo</string>
+
+    <string name="section_papers_add_field_title">Titulo</string>
+    <string name="section_papers_add_field_author">Autor</string>
+    <string name="section_papers_add_field_year">Año</string>
+    <string name="section_papers_add_field_language">Idioma</string>
+
+    <!-- ================================= -->
+    <!-- Multimedia section text -->
+    <!-- ================================= -->
+    <string name="section_multimedia_title">Sección de multimedia</string>
+    <string name="section_multimedia_desc">Any Books</string>
+    <string name="section_multimedia_btn_add">Botón para añadir multimedia</string>
+    <string name="section_multimedia_empty">No hay multimedia registrada</string>
+
+    <string name="section_multimedia_add_title">Registrar nuevo artículo multimedia</string>
+    <string name="section_multimedia_add_desc">Any Books</string>
+    <string name="section_multimedia_add_btn_add">Añadir artículo multimedia</string>
+
+    <string name="section_multimedia_update_title">Actualizar artículo multimedia</string>
+    <string name="section_multimedia_update_desc">Any Books</string>
+    <string name="section_multimedia_update_btn_update">Actualizar artículo</string>
+    <string name="section_multimedia_update_btn_delete">Eliminar artículo</string>
+
+    <string name="section_multimedia_add_field_title">Titulo</string>
+    <string name="section_multimedia_add_field_author">Autor</string>
+    <string name="section_multimedia_add_field_year">Año</string>
+    <string name="section_multimedia_add_field_language">Idioma</string>
+
+    <!-- ================================= -->
+    <!-- Lendings section text -->
+    <!-- ================================= -->
+    <string name="section_lendings_title">Sección de préstamos</string>
+    <string name="section_lendings_desc">Any Books</string>
+    <string name="section_lendings_btn_add">Botón para añadir préstamos</string>
+    <string name="section_lendings_empty">No hay prestamos registrados</string>
+
+    <!-- ================================= -->
+    <!-- Users section text -->
+    <!-- ================================= -->
+    <string name="section_users_title">Sección de usuarios</string>
+    <string name="section_users_desc">Any Books</string>
+    <string name="section_users_btn_add">Botón para añadir usuarios</string>
+    <string name="section_users_empty">No hay usuarios registrados</string>
+
+    <string name="section_users_add_title">Registrar nuevo usuario</string>
+    <string name="section_users_add_desc">Any Books</string>
+    <string name="section_users_add_btn_add">Añadir usuario</string>
+
+    <string name="section_users_update_title">Actualizar usuario</string>
+    <string name="section_users_update_desc">Any Books</string>
+    <string name="section_users_update_btn_update">Actualizar usuario</string>
+    <string name="section_users_update_btn_delete">Eliminar usuario</string>
+
+    <string name="section_users_add_field_name">Usuario</string>
+    <string name="section_users_add_field_pass">Contraseña</string>
+
+    <!-- ================================= -->
+    <!-- Info section text -->
+    <!-- ================================= -->
+    <string name="section_info_title">Acerca de</string>
+    <string name="section_info_desc">Any Books</string>
+
+    <string name="section_info_title_1">Sobre Any Books app</string>
+    <string name="section_info_desc_1">La aplicación Any Books está enfocada a solucionar algunos
+        de los problemas administrativos de la biblioteca Mariano Matamoros, ubicada en San Juan Totolac,
+        en el municipio de Tlaxcala. Esta aplicación le permite a la biblioteca gestionar el invetario de
+        libros, artículos y objetos multimedia. Igualmente permite dar seguimiento a los préstamos que se
+        realizan, resultando así en una solución de bajo costo y eficiente.</string>
+    <string name="section_info_title_2">Sobre los desarrolladores</string>
+    <string name="section_info_desc_2">Esta aplicación ha sido desarrollada por los alumnos
+        Stacey Conde Corona y Darien Pérez Cano, estudiantes de la carrera de Ingeniería en
+        Tecnologías de la Información en la Universidad Politécnica de Tlaxcala</string>
+    <string name="section_info_version">Versión 1.0.0</string>
+
+    <!-- Dashboard descriptions -->
+    <string name="logo_main_splash">Logo principal de la app</string>
+    <string name="logo_text_splash">Logo tipo texto de la app</string>
+
+</resources>
