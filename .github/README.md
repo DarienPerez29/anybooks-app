@@ -13,3 +13,7 @@ Any Books is an Android app to manage the books and articles inventory of librar
 
 
 </div>
+
+---
+
+*More info coming soon...*
